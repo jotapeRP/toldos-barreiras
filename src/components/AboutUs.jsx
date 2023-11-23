@@ -40,7 +40,7 @@ const AboutUs = () => {
         <img
           src={toldoSelled}
           alt="Toldo de Toldos Barreiras"
-          className="w-full h-52 object-cover"
+          className="w-full h-60 object-cover"
         />
       </div>
       <a href="#page3">
