@@ -1,4 +1,6 @@
 import React from "react";
+
+//images
 import locTenda from "../assets/loc-tenda.jpg";
 import toldoSelled from "../assets/toldo-selled.jpg";
 import arrowImg from "../assets/arrow-img.png";

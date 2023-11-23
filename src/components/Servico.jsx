@@ -5,7 +5,7 @@ import toldoServico from "../assets/toldo-servico.jpg";
 import banners from "../assets/baners.jpg";
 import tendas from "../assets/tendas.jpg";
 import arrowImg from "../assets/arrow-img.png";
-import toldoLogo from "../assets/toldo-logoPNG.png";
+import toldoLogo from "../assets/toldo-logoPng.png";
 
 const Servico = () => {
   return (

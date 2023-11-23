@@ -1,6 +1,6 @@
 import React from "react";
 
-import toldoLogo from "../assets/toldo-logoPNG.png";
+import toldoLogo from "../assets/toldo-logoPng.png";
 import arrowUp from "../assets/arrow-up.png";
 
 const Local = () => {
