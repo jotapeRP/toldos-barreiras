@@ -30,7 +30,7 @@ const Local = () => {
           praticidade. Consulte-nos:
         </p>
       </div>
-      <div className="flex bg-[#f2c230] justify-between items-center p-3 text-xl font-bold">
+      <div className="flex w-screen bg-[#f2c230] justify-between items-center p-3 text-lg font-bold absolute top-[75%]">
         <a href="https://www.instagram.com/" target="_blank">
           Instagram
         </a>
