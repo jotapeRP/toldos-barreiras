@@ -4,6 +4,27 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  /* Customize the scrollbar width */
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  /* Customize the scrollbar track */
+  background-color: #0d0c09;
+}
+
+::-webkit-scrollbar-thumb {
+  /* Customize the scrollbar thumb */
+  background-color: #402a01;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  /* Customize the scrollbar thumb */
+  background-color: #f2c230;
+}
+
 html {
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;

@@ -21,7 +21,7 @@ const Local = () => {
       ></iframe>
       <div className="p-7">
         <h2 className="uppercase tracking-[0.5rem] mb-4">Local</h2>
-        <h1 className="text-xl font-semibold mb-4">
+        <h1 className="text-xl font-semibold mb-4 md:mb-2">
           Endereço: R. Joaquim Antunes, 429 - Barreirinhas, Barreiras - BA,
           47811-009
         </h1>
@@ -30,15 +30,26 @@ const Local = () => {
           praticidade. Consulte-nos:
         </p>
       </div>
-      <div className="flex w-screen bg-[#f2c230] justify-between items-center p-3 text-lg font-bold absolute top-[75%]">
-        <a href="https://www.instagram.com/" target="_blank">
+      <div className="flex w-full justify-between  items-center text-lg font-bold absolute top-[76%]">
+        <a
+          href="https://www.instagram.com/"
+          target="_blank"
+          className="bg-[#f2c230] p-8 w-1/3 text-center transition hover:-translate-y-2 hover:bg-[#f2d06b]"
+        >
           Instagram
         </a>
-        <button>Contate-nos</button>
-        <a href="tel:(77)99905-1020" target="_blank">
-          9999-9999
-          <br />
-          Ligar
+        <button
+          className="bg-[#f2c230] p-8 w-1/3 text-center transition hover:-translate-y-2 hover:bg-[#f2d06b]
+        "
+        >
+          Contate-nos
+        </button>
+        <a
+          href="tel:(77)99905-1020"
+          target="_blank"
+          className="bg-[#f2c230] p-8 w-1/3 text-center transition hover:-translate-y-2 hover:bg-[#f2d06b]"
+        >
+          Ligar: 9999-9999
         </a>
       </div>
       <a href="#page1">

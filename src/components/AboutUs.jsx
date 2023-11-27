@@ -12,11 +12,11 @@ const AboutUs = () => {
         className="flex items-center justify-between mb-12
       "
       >
-        <div className="w-28 m-auto">
-          <h2 className="text-sm tracking-[0.15rem] mb-4 uppercase">
+        <div className="w-28 md:w-2/5 m-auto">
+          <h2 className="text-sm md:text-base tracking-[0.15rem] mb-4 uppercase">
             Sobre Nós
           </h2>
-          <h1 className="text-lg font-black">
+          <h1 className="text-lg md:text-xl font-black">
             Mudando Visões para Realidade, Evento por Evento.
           </h1>
         </div>
