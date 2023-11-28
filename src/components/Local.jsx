@@ -34,13 +34,13 @@ const Local = (props) => {
         <a
           href="https://www.instagram.com/"
           target="_blank"
-          className="bg-[#f2c230] p-8 w-1/3 text-center transition hover:-translate-y-2 hover:bg-[#f2d06b]"
+          className="bg-[#f2c230] flex h-20 px-8 w-1/3 justify-center items-center transition hover:-translate-y-2 hover:bg-[#f2d06b]"
         >
           Instagram
         </a>
         <button
           onClick={props.handleClass}
-          className="bg-[#f2c230] p-8 w-1/3 text-center transition hover:-translate-y-2 hover:bg-[#f2d06b]
+          className="bg-[#f2c230] px-8 h-20 w-1/3 text-center transition hover:-translate-y-2 hover:bg-[#f2d06b]
         "
         >
           Contate-nos
@@ -48,7 +48,7 @@ const Local = (props) => {
         <a
           href="tel:(77)99905-1020"
           target="_blank"
-          className="bg-[#f2c230] p-8 w-1/3 text-center transition hover:-translate-y-2 hover:bg-[#f2d06b]"
+          className="bg-[#f2c230] flex h-20 px-8 w-1/3 justify-center items-center transition hover:-translate-y-2 hover:bg-[#f2d06b]"
         >
           Ligar: 9999-9999
         </a>
