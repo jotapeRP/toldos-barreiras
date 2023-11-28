@@ -3,7 +3,7 @@ import pexelToldo from "../assets/pexels-toldo.jpg";
 import arrowImg from "../assets/arrow-img.png";
 import toldoLogo from "../assets/toldo-logoPng.png";
 
-const Home = () => {
+const Home = (props) => {
   return (
     <div
       id="page1"
@@ -25,7 +25,10 @@ const Home = () => {
         <p className="text-slate-300 mb-6 tracking-wide">
           Toldos, Paineis, Adesivos, Banners, Locação de Tendas
         </p>
-        <button className="text-slate-50 transition bg-[#F2C230] p-3 w-2/3 hover:bg-[#f2d06b] hover:text-[#0d0c09]">
+        <button
+          onClick={props.handleClass}
+          className="text-slate-50 transition bg-[#F2C230] p-3 w-2/3 hover:bg-[#f2d06b] hover:text-[#0d0c09]"
+        >
           Contate-nos
         </button>
       </div>

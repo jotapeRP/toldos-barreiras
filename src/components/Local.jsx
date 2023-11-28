@@ -3,7 +3,7 @@ import React from "react";
 import toldoLogo from "../assets/toldo-logoPng.png";
 import arrowUp from "../assets/arrow-up.png";
 
-const Local = () => {
+const Local = (props) => {
   return (
     <div id="page4" className="h-screen relative bg-[#0d0c09] text-[#f2f2f2]">
       <div className="pt-10 pb-5 flex items-center justify-center">
@@ -39,6 +39,7 @@ const Local = () => {
           Instagram
         </a>
         <button
+          onClick={props.handleClass}
           className="bg-[#f2c230] p-8 w-1/3 text-center transition hover:-translate-y-2 hover:bg-[#f2d06b]
         "
         >
