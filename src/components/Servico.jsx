@@ -21,8 +21,8 @@ const Servico = () => {
         <h2 className="text-sm tracking-[0.15rem] mb-2 uppercase">serviços</h2>
         <h1 className="text-3xl font-black">Nossos Serviços</h1>
       </div>
-      <div className="md:flex md:w-full md:justify-evenly">
-        <div className="flex md:block items-center justify-center text-[#402a01] mb-10">
+      <div className="flex flex-col h-3/5 justify-between md:flex-row md:w-full md:justify-evenly">
+        <div className="flex md:block items-center justify-center text-[#402a01]">
           <img
             src={toldoServico}
             alt="Serviço de toldo"
@@ -33,7 +33,7 @@ const Servico = () => {
             <h3 className="uppercase font-bold text-sm">Toldos</h3>
           </div>
         </div>
-        <div className="flex md:block items-center justify-center text-[#402a01] mb-10">
+        <div className="flex md:block items-center justify-center text-[#402a01]">
           <div className="bg-[#f2c230] h-28 w-44 flex justify-center flex-col items-center">
             <p>Serviço:</p>
             <h3 className="uppercase font-bold text-sm">
@@ -46,7 +46,7 @@ const Servico = () => {
             className="object-cover h-36 w-44"
           />
         </div>
-        <div className="flex md:block items-center justify-center text-[#402a01] mb-10">
+        <div className="flex md:block items-center justify-center text-[#402a01]">
           <img
             src={tendas}
             alt="Serviço de toldo"
